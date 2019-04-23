@@ -1,5 +1,5 @@
-require 'twitter_friendly'
 require 'dotenv/load'
+require 'twitter_friendly'
 
 client = TwitterFriendly::Client.new(
     consumer_key: ENV['CK'],
